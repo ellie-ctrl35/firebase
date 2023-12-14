@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import { Auth } from './components/auth';
 
 function App() {
   return (
     <div className="App">
-      <h1>My React App</h1>
+      <Auth/>
     </div>
   );
 }
